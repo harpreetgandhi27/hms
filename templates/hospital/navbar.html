@@ -1,0 +1,144 @@
+<!-- <!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .bs-example {
+      margin: 0px;
+
+    }
+
+    .navbar-brand {
+      font-size: 20px;
+      font-family: sans-serif;
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background:#337AB7;">
+      <a href="/" class="navbar-brand">Hospital Management</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+
+          <a href="/adminclick" class="nav-item nav-link">Admin</a>
+          <a href="/doctorclick" class="nav-item nav-link">Doctor</a>
+          <a href="/patientclick" class="nav-item nav-link">Patient</a>
+
+
+        </div>
+
+        <div class="navbar-nav">
+          <a href="/aboutus" class="nav-item nav-link">About Us</a>
+          <a href="/contactus" class="nav-item nav-link">Contact Us</a>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+
+  
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .navbar-custom {
+      background-color: #0066cc;
+    }
+
+    .navbar-custom .navbar-brand {
+      font-size: 28px;
+      font-family: 'Helvetica, Arial, sans-serif';
+      font-weight: bold;
+      color: white;
+    }
+
+    .navbar-custom .nav-link {
+      color: #ffffff;
+      font-size: 16px;
+      margin-right: 15px;
+      transition: color 0.3s;
+    }
+
+    .navbar-custom .nav-link:hover {
+      color: #ffcc00;
+    }
+
+    .navbar-toggler {
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a href="/" class="navbar-brand">HealthSync</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a href="/adminclick" class="nav-link">Admin</a>
+          </li>
+          <li class="nav-item">
+            <a href="/doctorclick" class="nav-link">Doctor</a>
+          </li>
+          <li class="nav-item">
+            <a href="/patientclick" class="nav-link">Patient</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="/aboutus" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="/contactus" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Developed By: Sumit Kumar -->
+</body>
+</html>
